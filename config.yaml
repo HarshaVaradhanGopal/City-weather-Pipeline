@@ -1,0 +1,13 @@
+﻿run_id: default
+cities:
+  - name: Bengaluru
+    lat: 12.9716
+    lon: 77.5946
+  - name: SanFrancisco
+    lat: 37.7749
+    lon: -122.4194
+output_path: data/processed/weather_hourly.csv
+api:
+  base_url: https://api.open-meteo.com/v1/forecast
+  params:
+    hourly: temperature_2m,relative_humidity_2m
