@@ -1,0 +1,16 @@
+﻿#python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg_info/
+.env
+
+#Editors
+.vscode\
+.idea\
+
+#data(not to comit raw/ tem files)
+data/raw/*
+!data/raw/.gitkeep
+data/temp/*
+!data/temp/.gitkeep
